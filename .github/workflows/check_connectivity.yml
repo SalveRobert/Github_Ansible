@@ -15,8 +15,3 @@ jobs:
           sudo apt-add-repository ppa:ansible/ansible
           sudo apt install -y ansible
 
-name: Check Connectivity
-
-on:
-  schedule:
-    - cron: '*/1 * * * *'
