@@ -3,7 +3,6 @@ name: Check Connectivity
 on:
     schedule:
       - cron: '*/1 * * * *'
-
     push:
 
   jobs:
